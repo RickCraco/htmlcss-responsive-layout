@@ -1,0 +1,16 @@
+/* general */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug{
+    border: 2px solid red;
+}
+
+.container{
+    max-width: 450px;
+    margin: 0 auto;
+}
