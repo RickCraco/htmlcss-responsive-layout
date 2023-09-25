@@ -20,7 +20,12 @@
     color: var(--color-secondary-color);
 }
 
-p{
+.text-color-black{
+    color: var(--color-text);
+    text-align: center;
+}
+
+section:nth-child(1) p{
     text-align: center;
     line-height: 25px;
 }
@@ -43,12 +48,24 @@ ul{
     margin-top: 30px;
 }
 
+.padding-top{
+    padding-top: 40px;
+}
+
+.section-bg{
+    background-color: var(--color-primary-color);
+}
+
 /*immagini*/
 
 .img-section1{
     width: 50%;
     position: relative;
     top: 25px;
+}
+
+.img-section2{
+    width: 100%;
 }
 
 /*Flex*/
@@ -94,4 +111,32 @@ nav{
 .icon{
     font-size: 70px;
     color: var(--color-secondary-color);
+}
+
+/*sezione 2*/
+
+section:nth-child(2) h2, p{
+    color: white;
+}
+
+.card-2{
+    padding: 20px;
+    background-color: var(--color-light-color);
+    border-radius: 30px;
+}
+
+.button-arrow{
+    background-color: var(--color-primary-color);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+}
+
+.arrow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50% 50%);
 }
