@@ -25,6 +25,14 @@
     /*text-align: center;*/
 }
 
+.text-white{
+    color: white;
+}
+
+.text-violet{
+    color: var(--color-primary-color);
+}
+
 section:nth-child(1) p{
     text-align: center;
     line-height: 25px;
@@ -165,4 +173,21 @@ section:nth-child(2) h2, p{
     background-position: center;
     margin: 0 auto;
     border-radius: 50%;
+}
+
+/*sezione 4*/
+
+.card-section4{
+    padding: 20px;
+    background-color: var(--color-light-color);
+    border-radius: 20px;
+}
+
+.button-more{
+    display: inline-block;
+    background-color: var(--color-primary-color);
+    text-align: center;
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: white;
 }
