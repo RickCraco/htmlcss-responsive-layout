@@ -16,6 +16,15 @@
     --color-text: #424242;
 }
 
+.h3-color{
+    color: var(--color-secondary-color);
+}
+
+p{
+    text-align: center;
+    line-height: 25px;
+}
+
 ul{
     list-style: none;
     color: white;
@@ -30,11 +39,30 @@ ul{
     margin: 0 auto;
 }
 
+.margine-top{
+    margin-top: 30px;
+}
+
+/*immagini*/
+
+.img-section1{
+    width: 50%;
+    position: relative;
+    top: 25px;
+}
+
 /*Flex*/
 
 .d-flex{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.flex-column{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -51,4 +79,19 @@ nav{
 
 .logo{
     width: 80%;
+}
+
+/*main*/
+
+/*sezione 1*/
+
+.card{
+    padding: 20px;
+    background-color: var(--color-bg-card);
+    border-radius: 20px;
+}
+
+.icon{
+    font-size: 70px;
+    color: var(--color-secondary-color);
 }
